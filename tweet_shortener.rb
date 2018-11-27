@@ -43,6 +43,6 @@ end
 def shortened_tweet_truncator(tweet)
   binding.pry
   if selective_tweet_shortener(tweet).length > 140 
-    
+    p selective_tweet_shortener(tweet).length
   end
 end
