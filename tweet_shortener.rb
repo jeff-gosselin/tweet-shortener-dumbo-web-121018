@@ -18,6 +18,7 @@ def word_substituter(tweet)
   array = tweet.split(/\s/)
 
   array.each_with_index do |word, i|
+    word = word.downcase
     if dictionary[word]
       array[i] = dictionary[word]
     end
