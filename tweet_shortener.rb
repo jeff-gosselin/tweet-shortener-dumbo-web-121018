@@ -22,4 +22,5 @@ def word_substituter(tweet)
       array[i] = dictionary[word]
     end
   end
+  array.join(" ")
 end
